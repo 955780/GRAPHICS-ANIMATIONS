@@ -1,3 +1,5 @@
+# include<GL/glu.h>
+# include<GL/glut.h>
 void MyInit()
 {
 glClearColor(0,0,1,1);
