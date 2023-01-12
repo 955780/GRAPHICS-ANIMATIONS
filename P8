@@ -22,7 +22,7 @@ glutInit(&amp;c,v);
 glutInitWindowPosition(300,300);
 glutInitWindowSize(400,400);
 glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);
-glutCreateWindow(&quot;My first window&quot;);
+glutCreateWindow("My first window");
 MyInit();
 glutDisplayFunc(draw);
 glutMainLoop();
