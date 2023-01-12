@@ -23,10 +23,10 @@ glEnd();
 glFlush();
 }
 int main(int argc, char** argv) {
-glutInit(&amp;argc, argv);
+glutInit(&argc, argv);
 glutInitWindowSize(640, 480);
 glutInitWindowPosition(50, 50);
-glutCreateWindow(&quot;Model Transform&quot;);
+glutCreateWindow("Model Transform");
 glutDisplayFunc(display);
 initGL();
 glutMainLoop();
